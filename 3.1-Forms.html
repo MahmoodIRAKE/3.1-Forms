@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Create an Account</h2>
+    <form action="">
+        <!--Email-->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email">
+        </div>
+        <!--password-->
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <!--Age-->
+        <div>
+            <label for="age">Age</label>
+            <select name="age" id="age" aria-placeholder="Select Age">
+               <option value="40">40</option>
+               <option value="50" selected>50</option>
+               <option value="60">60</option>
+            </select>
+        </div>
+        <!--info-->
+        <div>
+            <label for="info">Tell us little about yourself:</label>
+        </div>
+        <div>
+
+            <textarea name="message" id="message" cols="20" rows="5"></textarea>
+        </div>
+        <!--I agree-->
+        <div>
+            <input type="checkbox" name="agree" value="agree" id="agree">I agree to the <a href="">terms of service</a>
+        </div>
+    </form>
+</body>
+
+</html>
